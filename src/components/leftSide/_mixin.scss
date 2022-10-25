@@ -1,0 +1,17 @@
+@import '../../variables';
+
+@mixin box {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+@mixin titleLeftSide {
+  padding-bottom: 1rem;
+  color: $color-title;
+  font-weight: 100;
+  font-size: 3rem;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+}

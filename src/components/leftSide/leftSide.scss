@@ -1,0 +1,75 @@
+@import '../../variables';
+@import './mixin';
+
+.leftSide {
+  padding-top: 2rem;
+  color: $color-sideText;
+  .leftSide__skills {
+    margin-bottom: 2rem;
+    .title {
+      @include titleLeftSide;
+    }
+    .skills__box {
+      @include box;
+    }
+  }
+  .leftSide__education {
+    .title {
+      @include titleLeftSide;
+      position: relative;
+      &::after {
+        content: '';
+        width: 0.04rem;
+        height: 33.5rem;
+        background-color: $color-secondary;
+        position: absolute;
+        top: 5rem;
+        left: 0.35rem;
+        z-index: 1;
+      }
+    }
+    .education__box {
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      position: relative;
+      z-index: 10;
+      .box--info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        .title--info {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+  .leftSide__social {
+    .title {
+      @include titleLeftSide;
+    }
+    .social__box {
+      @include box;
+      a {
+        &:hover {
+          color: $color-title;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .leftSide__languages {
+    .title {
+      @include titleLeftSide;
+    }
+    .languages__box {
+      @include box;
+
+      .box--info {
+        display: flex;
+        gap: 1rem;
+      }
+    }
+  }
+}

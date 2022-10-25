@@ -1,0 +1,28 @@
+@import 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+  background-color: gray;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.App {
+  max-width: 120rem;
+  min-height: 100vh;
+  padding: 4rem;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  background-color: $color-black;
+  color: $color-primary-text;
+  overflow: hidden;
+
+  .info {
+    display: flex;
+    .leftSide {
+      flex: 1;
+    }
+    .rightSide {
+      flex: 2;
+    }
+  }
+}
