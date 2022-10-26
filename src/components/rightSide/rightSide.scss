@@ -1,12 +1,92 @@
 @import '../../variables';
+@import '../../mixin';
 
 .rightSide {
   padding-top: 2rem;
   color: $color-mainText;
-.title {
-      font-size: 3rem;
-      font-weight: 100;
-      color: $color-naming;
+  .title {
+    font-size: 3rem;
+    font-weight: 100;
+    color: $color-naming;
+  }
+  .date {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: $color-yellow;
+  }
+  .rightSide__helloText {
+    margin-bottom: 3rem;
+  }
+  .rightSide__project {
+    .project__title--box {
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      .title {
+        margin-right: 1rem;
+      }
+      a {
+        margin-left: 1rem;
+        border-bottom: 1px solid $color-mainText;
+        &:hover {
+          color: $color-title;
+          border-bottom: 1px solid $color-title;
+        }
+      }
     }
-  
+    .project__box {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      .box__link {
+        max-width: 50rem;
+      }
+      .box__qrCode {
+        img {
+          @include qrCode;
+        }
+      }
+    }
+  }
+  .rightSide__work {
+    .work__title--box {
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      .title {
+        margin-right: 1rem;
+      }
+      .company {
+        margin-left: 1rem;
+      }
+    }
+    .work__box {
+      .date {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+  .rightSide__qrCode {
+    .title {
+      margin-bottom: 2rem;
+    }
+    .qrCode__box {
+      display: flex;
+      justify-content: space-between;
+      .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        .box__img {
+          max-width: 13rem;
+
+          img {
+            @include qrCode;
+            transform: translateY(0rem);
+          }
+        }
+      }
+    }
+  }
 }

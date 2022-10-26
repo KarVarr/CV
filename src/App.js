@@ -10,9 +10,8 @@ function App() {
     <div className='App'>
       <Header />
       <div className='info'>
-      <LeftSide/>
-      <RightSide/>
-        
+        <LeftSide />
+        <RightSide />
       </div>
     </div>
   );

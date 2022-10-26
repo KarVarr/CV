@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <div className='header'>
       <div className='header__contact'>
-        <Contact name={'P'} info={'+7 (999) 987 87 13'} />
         <Contact name={'E'} info={'megatr9n@gmail.com'} />
+        <Contact name={'P'} info={'+7 (999) 987 87 13'} />
         <Contact name={'T'} info={'@karenvardanian'} />
       </div>
       <div className='header__img'>

@@ -1,4 +1,4 @@
-@import '../../variables';
+@import './variables';
 
 @mixin box {
   margin-bottom: 1rem;
@@ -14,4 +14,11 @@
   font-size: 3rem;
   letter-spacing: 1rem;
   text-transform: uppercase;
+}
+
+@mixin qrCode {
+  filter: invert(1);
+  border: 0.5px solid $color-borderInvert;
+  box-shadow: 0 4px 10px $color-shadow;
+  transform: translateY(-5rem);
 }

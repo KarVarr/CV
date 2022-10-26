@@ -28,14 +28,9 @@ const skills = [
 
 const education = [
   {
-    name: 'stepik.org',
-    title: 'Web development for beginners: HTML & CSS',
-    date: '03/2022',
-  },
-  {
     name: 'freeCodeCamp.org',
-    title: 'Responsive Web Design',
-    date: '06/2022',
+    title: 'Front End Development Libraries',
+    date: '07/2022',
   },
   {
     name: 'freeCodeCamp.org',
@@ -44,8 +39,18 @@ const education = [
   },
   {
     name: 'freeCodeCamp.org',
-    title: 'Front End Development Libraries',
-    date: '07/2022',
+    title: 'Responsive Web Design',
+    date: '06/2022',
+  },
+  {
+    name: 'stepik.org',
+    title: 'Web development for beginners: HTML & CSS',
+    date: '03/2022',
+  },
+  {
+    name: 'Moscow Institute of World Economy and International Relations',
+    title: 'Finance and credit',
+    date: '2006 - 2011',
   },
 ];
 
@@ -71,9 +76,8 @@ const languages = [
   },
   {
     name: 'Russian',
-    level: 'Advanced',
+    level: 'Native',
   },
-
   {
     name: 'English',
     level: 'Pre-intermediate',

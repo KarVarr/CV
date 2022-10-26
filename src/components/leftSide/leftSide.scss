@@ -1,5 +1,5 @@
 @import '../../variables';
-@import './mixin';
+@import '../../mixin';
 
 .leftSide {
   padding-top: 2rem;
@@ -20,7 +20,7 @@
       &::after {
         content: '';
         width: 0.04rem;
-        height: 33.5rem;
+        height: 49.5rem;
         background-color: $color-secondary;
         position: absolute;
         top: 5rem;
@@ -69,6 +69,9 @@
       .box--info {
         display: flex;
         gap: 1rem;
+        .info__level {
+          color: $color-naming;
+        }
       }
     }
   }
