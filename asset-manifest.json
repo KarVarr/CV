@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cv/static/css/main.e21ae873.css",
+    "main.js": "/cv/static/js/main.e3409a71.js",
+    "static/media/Karen.webp": "/cv/static/media/Karen.e2322191f375be83bc78.webp",
+    "static/media/qr-codeTelegram.png": "/cv/static/media/qr-codeTelegram.19bc562c223216972d6e.png",
+    "index.html": "/cv/index.html",
+    "main.e21ae873.css.map": "/cv/static/css/main.e21ae873.css.map",
+    "main.e3409a71.js.map": "/cv/static/js/main.e3409a71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e21ae873.css",
+    "static/js/main.e3409a71.js"
+  ]
+}
