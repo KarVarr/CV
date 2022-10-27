@@ -6,6 +6,7 @@ import qrLinkedIn from '../../image/qr-codeLinkedIn.gif';
 import qrGitHub from '../../image/qr-codeGitHub.gif';
 import qrTwitter from '../../image/qr-codeTwitter.gif';
 import qrTelegram from '../../image/qr-codeTelegram.png';
+
 import QrCode from './QrCode';
 
 const date = new Date().getFullYear();
@@ -34,10 +35,10 @@ const RightSide = () => {
     <div className='rightSide'>
       <p className='rightSide__helloText'>
         <div className='helloText__title--box'>
-          <span className='title'>Hi,i'm Karen </span>- a Junior Front-End
+          <span className='title'>Hi,I'm Karen </span>- a Junior Front-End
           Developer from Moscow.
         </div>
-        <br /> i am looking for a job as a junior Front-End developer in a
+        <br /> I am looking for a job as a junior Front-End developer in a
         friendly team!
         <br />
         I'm interested in web development and everything connected with it. I
@@ -59,7 +60,7 @@ const RightSide = () => {
         </div>
         <div className='project__box'>
           <p className='box__link'>
-            For my studies i used HTML / CSS / SCSS / JS / ReactJS/React Native
+            For my studies I used HTML / CSS / SCSS / JS / ReactJS/React Native
             / BEM / Responsive layout / Mobile layout / Flexbox / Pixel Perfect.
             <br />
             There are all my projects in section "Portfolio" and link to the
