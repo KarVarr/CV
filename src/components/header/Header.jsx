@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.scss';
-import img from '../../image/Karen.webp';
+// import img from '../../image/Karen.webp';
 import Contact from './Contact';
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
         <Contact name={'T'} info={'@karenvardanian'} />
       </div>
       <div className='header__img'>
-        <img src={img} alt='img' />
+        {/* <img src='./image/Karen.webp' alt='img' /> */}
       </div>
       <div className='header__name'>
         <h1>

@@ -1,11 +1,11 @@
 import React from 'react';
 import './rightSide.scss';
 
-import qrPortfolio from '../../image/qr-codePortfolio.gif';
-import qrLinkedIn from '../../image/qr-codeLinkedIn.gif';
-import qrGitHub from '../../image/qr-codeGitHub.gif';
-import qrTwitter from '../../image/qr-codeTwitter.gif';
-import qrTelegram from '../../image/qr-codeTelegram.png';
+// import qrPortfolio from '../../../public/image/qr-codePortfolio.gif';
+// import qrLinkedIn from '../../image/qr-codeLinkedIn.gif';
+// import qrGitHub from '../../image/qr-codeGitHub.gif';
+// import qrTwitter from '../../image/qr-codeTwitter.gif';
+// import qrTelegram from '../../image/qr-codeTelegram.png';
 
 import QrCode from './QrCode';
 
@@ -14,19 +14,19 @@ const date = new Date().getFullYear();
 const qr = [
   {
     title: 'GitHub',
-    img: qrGitHub,
+    img: '../../../public/image/qr-codeGitHub.gif',
   },
   {
     title: 'LinkedIn',
-    img: qrLinkedIn,
+    img: '../../../public/image/qr-codeLinkedIn.gif',
   },
   {
     title: 'Telegram',
-    img: qrTelegram,
+    img: '../../../public/image/qr-codeTelegram.png',
   },
   {
     title: 'Twitter',
-    img: qrTwitter,
+    img: '../../../public/image/qr-codeTwitter.gif',
   },
 ];
 
@@ -68,7 +68,7 @@ const RightSide = () => {
             <p className='date'>02/2022 - Until now</p>
           </p>
           <div className='box__qrCode'>
-            <img src={qrPortfolio} alt='QrCode' />
+            {/* <img src='../../../public/image/qr-codePortfolio.gif' alt='QrCode' /> */}
           </div>
         </div>
       </div>
@@ -108,14 +108,14 @@ const RightSide = () => {
         </div>
       </div>
 
-      <div className='rightSide__qrCode'>
+      {/* <div className='rightSide__qrCode'>
         <div className='title'>QR Code</div>
         <div className='qrCode__box'>
           {qr.map((item, i) => (
             <QrCode key={i} title={item.title} img={item.img} />
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
