@@ -12,7 +12,7 @@ const Header = () => {
         <Contact name={'T'} info={'@karenvardanian'} />
       </div>
       <div className='header__img'>
-        {/* <img src='./image/Karen.webp' alt='img' /> */}
+        <img src='image/Karen.webp' alt='img' />
       </div>
       <div className='header__name'>
         <h1>

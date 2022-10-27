@@ -14,19 +14,19 @@ const date = new Date().getFullYear();
 const qr = [
   {
     title: 'GitHub',
-    img: '../../../public/image/qr-codeGitHub.gif',
+    img: 'image/qr-codeGitHub.gif',
   },
   {
     title: 'LinkedIn',
-    img: '../../../public/image/qr-codeLinkedIn.gif',
+    img: 'image/qr-codeLinkedIn.gif',
   },
   {
     title: 'Telegram',
-    img: '../../../public/image/qr-codeTelegram.png',
+    img: 'image/qr-codeTelegram.png',
   },
   {
     title: 'Twitter',
-    img: '../../../public/image/qr-codeTwitter.gif',
+    img: 'image/qr-codeTwitter.gif',
   },
 ];
 
@@ -68,7 +68,7 @@ const RightSide = () => {
             <p className='date'>02/2022 - Until now</p>
           </p>
           <div className='box__qrCode'>
-            {/* <img src='../../../public/image/qr-codePortfolio.gif' alt='QrCode' /> */}
+            <img src='image/qr-codePortfolio.gif' alt='QrCode' />
           </div>
         </div>
       </div>
@@ -108,14 +108,14 @@ const RightSide = () => {
         </div>
       </div>
 
-      {/* <div className='rightSide__qrCode'>
+      <div className='rightSide__qrCode'>
         <div className='title'>QR Code</div>
         <div className='qrCode__box'>
           {qr.map((item, i) => (
             <QrCode key={i} title={item.title} img={item.img} />
           ))}
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
